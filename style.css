@@ -51,5 +51,17 @@ section::after{
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .tampilan-depan .logo img{
-    width: 48px;
+    width: 80px;
+}
+.tampilan-depan .chip{
+    width: 50px;
+    
+}
+.tampilan-depan header{
+    justify-content: space-between;
+
+}
+.tampilan-depan .logo{
+    display: flex;
+    align-items: center;
 }
