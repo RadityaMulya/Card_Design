@@ -7,6 +7,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 section {
     position: relative;
     min-height: 100vh;
@@ -17,7 +18,8 @@ section {
     justify-content: center;
     color: #fff;
 }
-section::before{
+
+section::before {
     content: "";
     position: absolute;
     height: 240px;
@@ -26,7 +28,8 @@ section::before{
     transform: translate(-150px, -100px);
     background: linear-gradient(90deg, #9c27b0, #f3f5f5);
 }
-section::after{
+
+section::after {
     content: "";
     position: absolute;
     height: 240px;
@@ -35,33 +38,56 @@ section::after{
     transform: translate(150px, 100px);
     background: linear-gradient(90deg, #9c27b0, #f3f5f5);
 }
+
 .container {
     position: relative;
     height: 225px;
     width: 375px;
     z-index: 100;
 }
+
 .container .kartu {
     height: 100%;
     width: 100%;
+    padding: 25px;;
     border-radius: 25px;
     backdrop-filter: blur(25px);
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.tampilan-depan .logo img{
-    width: 80px;
-    margin-right: 230px;
-}
-.tampilan-depan .logo .chip{
+
+.tampilan-depan .logo img {
     width: 60px;
+    margin-right: 10px;
 }
-.tampilan-depan header{
+
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tampilan-depan .chip {
+    width: 50px;
+}
+
+.tampilan-depan header {
     justify-content: space-between;
 
 }
-.tampilan-depan .logo{
+.tampilan-depan .logo {
     display: flex;
     align-items: center;
+}
+
+.tampilan-depan .detail-kartu {
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+h6 {
+    font-size: 10px;
+    font-weight: 400;
 }
