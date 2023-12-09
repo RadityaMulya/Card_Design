@@ -52,10 +52,10 @@ section::after{
 }
 .tampilan-depan .logo img{
     width: 80px;
+    margin-right: 230px;
 }
-.tampilan-depan .chip{
-    width: 50px;
-    
+.tampilan-depan .logo .chip{
+    width: 60px;
 }
 .tampilan-depan header{
     justify-content: space-between;
