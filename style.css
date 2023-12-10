@@ -12,7 +12,9 @@ section {
     min-height: 100vh;
     width: 100%;
     background: #0d0e1a;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 section::before {
     content: "";
@@ -29,6 +31,16 @@ section::after {
     height: 240px;
     width: 240px;
     border-radius: 50%;
-    transform: translate(-150px, 100px);
+    transform: translate(150px, 100px);
     background: linear-gradient(90deg, #752683, #f3f5f5);
+}
+.container {
+    position: relative;
+    height: 275px;
+    width: 275px;
+    z-index: ;
+}
+.container .kartu{
+    height: 100%;
+    width: 100%;
 }
