@@ -1,12 +1,13 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 section {
     position: relative;
     min-height: 100vh;
@@ -17,6 +18,7 @@ section {
     justify-content: center;
     color: #fff;
 }
+
 section::before {
     content: "";
     position: absolute;
@@ -26,6 +28,7 @@ section::before {
     transform: translate(-150px, -100px);
     background: linear-gradient(90deg, #752683, #f3f5f5);
 }
+
 section::after {
     content: "";
     position: absolute;
@@ -35,35 +38,43 @@ section::after {
     transform: translate(150px, 100px);
     background: linear-gradient(90deg, #752683, #f3f5f5);
 }
+
 .container {
     position: relative;
     height: 225px;
     width: 375px;
     z-index: 100;
 }
-.container .kartu{
+
+.container .kartu {
     height: 100%;
     width: 100%;
     border-radius: 25px;
+    padding: 25px;
     backdrop-filter: blur(25px);
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
-.tampilan-depan .Logo img{
+
+.kartu .Logo img {
     width: 48px;
 }
+
 h5 {
     font-size: 16px;
     font-weight: 400;
 }
-.tampilan-depan .chip {
+
+.kartu .chip {
     width: 50px;
 }
-.tampilan-depan header {
 
+.kartu header {
+    justify-content: space-between;
 }
-.tampilan-depan .Logo {
+
+.kartu .Logo {
     display: flex;
     align-items: center;
 }
