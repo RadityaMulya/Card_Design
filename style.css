@@ -13,3 +13,12 @@ section {
     width: 100%;
     background: #0d0e1a;
 }
+section::before {
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #752683, #f3f5f5);
+
+}
