@@ -59,6 +59,7 @@ section::after {
 
 .kartu .Logo img {
     width: 48px;
+    margin-right: 10px;
 }
 
 h5 {
